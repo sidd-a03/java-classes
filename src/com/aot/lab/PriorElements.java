@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class PriorElements {
 
     public static int[] takeInputArray(Scanner sc) {
+        // taking the input array
         System.out.print("Enter the array size: ");
         int n = sc.nextInt();
         int[] arr = new int[n];
@@ -18,12 +19,13 @@ public class PriorElements {
     }
 
     public static int calculatePriorElement(int[] arr) {
+        // application logic
         int count = 1;
-        int maxi = arr[0];
+        int maxi = arr[0]; // initialize maximum value
 
         for (int i = 1; i < arr.length; i++) {
             if (arr[i] > maxi) count++;
-            maxi = Math.max(maxi, arr[i]);
+            maxi = Math.max(maxi, arr[i]); // calculate the maximum value in each iteration
         }
         return count;
     }
