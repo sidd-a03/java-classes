@@ -1,24 +1,3 @@
-# ☕ Java Lab Experiments
-
-![Java](https://img.shields.io/badge/Language-Java-orange?style=for-the-badge&logo=java)
-![Semester](https://img.shields.io/badge/Semester-6th-blue?style=for-the-badge)
-![Department](https://img.shields.io/badge/Dept-Electrical%20Engineering-green?style=for-the-badge)
-
-> A collection of Java programs and problem statements (PS) from the 6th Semester EE Lab.
-
----
-
-## 👤 Student Details
-
-| Field | Details                     |
-| :--- |:----------------------------|
-| **Name** | **Achinta Siddhanta** |
-| **Roll No** | 38                          |
-| **Subject** | OOPS & Java Programming Lab |
-| **IDE Used** | IntelliJ IDEA               |
-
----
-
 ## 📑 Index of Experiments
 
 | Exp No | Experiment Name / Problem Statement |
