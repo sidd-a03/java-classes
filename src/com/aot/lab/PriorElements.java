@@ -30,7 +30,7 @@ public class PriorElements {
         return count;
     }
 
-    static void main(String[] args) {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] arr = takeInputArray(sc);
         int count = calculatePriorElement(arr);
